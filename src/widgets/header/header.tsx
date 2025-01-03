@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
         <div className={s.flexbetween}>
           <div className={s.flex}>
             <Link to={"/"}>
-              <FontAwesomeIcon icon={faTooth} size={"4x"} className={s.tooth} />
+              <FontAwesomeIcon icon={faTooth} size={"3x"} className={s.tooth} />
             </Link>
             <div className={s.links}>
               <Link to={"/"}>Головна</Link>

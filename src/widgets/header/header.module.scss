@@ -1,13 +1,13 @@
 .headertag {
-  margin-top: 40px;
+  padding-top: 20px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1); // Полупрозрачная тонкая полоска
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Легкая тень для дополнительной глубины
   transition: border-bottom 0.3s ease, box-shadow 0.3s ease; // Плавные переходы
   padding-bottom: 20px;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
+  background-color: #f4f4f4;
   z-index: 1000;
 }
 
