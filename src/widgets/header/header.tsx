@@ -3,7 +3,6 @@ import s from "./header.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTooth } from "@fortawesome/free-solid-svg-icons/faTooth";
 import { Link } from "react-router-dom";
-import { cn } from "@/lib/utils";
 export const Header: React.FC = () => {
   return (
     <header className={`${s.headertag}`}>

@@ -1,5 +1,58 @@
 .blue_block {
-  width: 400px;
-  height: 400px;
+  width: 750px;
+  height: 600px;
   background-color: #007bff;
+  position: absolute;
+  z-index: -1;
 }
+.blue_block::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: -10px;
+  width: 290px; /* увеличиваем ширину выреза на 10px */
+  height: 825px;
+  background-color: #fff;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+}
+.img_girl_parent {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 450px;
+  height: 450px;
+}
+.img_wrapper {
+  margin-top: 60px;
+}
+.img_girl {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.wrap {
+  margin-top: 100px;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+.h1txt {
+  font-size: 50px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+.bgg {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.w600 {
+  width: 600px;
+}
+.blue_under {
+  height: 15px;
+  background-color: #007bff;
+  margin: 10px 0;
+  margin-bottom: 40px;
+}
+

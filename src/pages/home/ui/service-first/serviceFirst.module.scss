@@ -1,0 +1,15 @@
+.wrap{
+    margin-top: 180px;
+}
+.parent{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    div{
+        width: 320px;
+        height: 200px;
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+}
