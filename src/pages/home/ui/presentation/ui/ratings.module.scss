@@ -4,19 +4,15 @@
 }
 
 .rating_card {
-  background: #ffffff; /* Белый фон карточки */
   border: 1px solid #e0e0e0; /* Лёгкая рамка */
   border-radius: 10px; /* Скругленные углы */
   width: 230px; /* Фиксированная ширина карточки */
   height: 150px; /* Увеличена высота */
-  padding: 15px; /* Внутренние отступы */
   display: flex; /* Используем Flexbox */
   flex-direction: column; /* Размещаем содержимое вертикально */
   align-items: center; /* Центрируем по горизонтали */
   justify-content: center; /* Центрируем по вертикали */
-  text-align: center; /* Центрирование текста */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
   &:hover {
     transform: translateY(-10px); /* Лёгкий подъём при наведении */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Увеличенная тень */
@@ -24,7 +20,7 @@
 
   p {
     margin-top: 10px; /* Отступ под звёздами */
-    color: #333333; /* Цвет текста */
+    color: black; /* Цвет текста */
     font-weight: 500; /* Полужирный текст */
     font-size: 14px; /* Размер текста */
   }

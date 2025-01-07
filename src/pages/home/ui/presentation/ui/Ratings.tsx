@@ -3,10 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import s from "./ratings.module.scss";
 import dentalCareImg from "src/img/dentalCare.png";
-
 const Ratings = () => {
   return (
-    <div className={cn("flex", s.ratings_container)}>
+    <div className={`flex ${s.ratings_container}`}>
       <a
         href="https://dentalcare.dp.ua/clinic/132"
         target="_blank"

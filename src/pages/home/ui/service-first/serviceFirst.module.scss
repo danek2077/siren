@@ -1,15 +1,36 @@
-.wrap{
-    margin-top: 180px;
+.wrap {
+  margin-top: 180px;
 }
-.parent{
-    display: flex;
-    gap: 20px;
-    padding-top: 20px;
-    justify-content: space-evenly;
-    div{
-        width: 320px;
-        height: 200px;
-        border: 1px solid #000;
-        border-radius: 5px;
-    }
+.parent {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+.child {
+  width: 365px;
+  height: 200px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: translateY(-10px); /* Лёгкий подъём при наведении */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Увеличенная тень */
+  }
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+  color: black;
+}
+.h1txt{
+  font-size: 25px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  
+}
+.img{
+  height: auto; /* Автоматическая высота */
+  margin-bottom: 10px; /* Отступ под изображением */
+  border-radius: 5px; /* Лёгкое скругление изображения */
+  max-width: 100px;
 }
