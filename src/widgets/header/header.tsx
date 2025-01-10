@@ -3,7 +3,9 @@ import s from "./header.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTooth } from "@fortawesome/free-solid-svg-icons/faTooth";
 import { Link } from "react-router-dom";
+import { useStoreScroll } from "src/store/store";
 export const Header: React.FC = () => {
+  const scroller = useStoreScroll((state) => state.scrollElem);
   return (
     <header className={`${s.headertag}`}>
       <div className="container">
@@ -22,7 +24,9 @@ export const Header: React.FC = () => {
             </div>
           </div>
           <div className={s.wrapbtn}>
-            <button className={s.signbtn}>ЗВ'ЯЗАТИСЯ З НАМИ</button>
+            <button onClick={() => scroller()} className={s.signbtn}>
+              ЗВ'ЯЗАТИСЯ З НАМИ
+            </button>
           </div>
         </div>
       </div>

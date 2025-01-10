@@ -1,0 +1,31 @@
+.form {
+  background-color: white;
+  height: 550px;
+  width: 700px;
+  border: 1px solid #000;
+}
+.form_parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
+}
+.h1txt {
+  font-size: 25px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.wrap{
+    padding: 35px 60px;
+}
+.input_wrap{
+  display: flex;
+  justify-content: center;
+}
+.input_custom{
+  height: 100px;
+  width: 250px;
+}

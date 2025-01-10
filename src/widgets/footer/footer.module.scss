@@ -1,0 +1,40 @@
+.wrap {
+  margin-bottom: 1000px;
+}
+.blue_block {
+  position: absolute;
+  z-index: -1;
+  height: 350px;
+  background-color: #007bff;
+  width: 100%;
+}
+.parent{
+    
+    a{
+        color: white;
+        text-decoration: underline;
+    }
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_parent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.call_us{
+    display: flex;
+    align-items: center;
+    span{
+        margin-left: 10px;
+    }
+    margin-bottom: 5px;
+}
+.fonts_awesome{
+    display: flex;
+    justify-content: space-between;
+}
