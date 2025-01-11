@@ -1,6 +1,6 @@
 .form {
   background-color: white;
-  height: 550px;
+  height: 575px;
   width: 700px;
   border: 1px solid #000;
 }
@@ -18,14 +18,55 @@
   font-weight: 600;
   text-align: center;
 }
-.wrap{
-    padding: 35px 60px;
+.wrap {
+  padding: 35px 60px;
 }
-.input_wrap{
+.input_wrap {
   display: flex;
   justify-content: center;
 }
-.input_custom{
+.input_custom {
   height: 100px;
-  width: 250px;
+}
+.text_center {
+  text-align: center;
+  width: 100%;
+}
+.when_recall_style {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.selects_parent{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signbtn {
+  background-color: #007bff;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  &:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.75);
+  }
 }

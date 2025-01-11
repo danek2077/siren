@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "src/ui/shared/container/container";
 import s from "./footer.module.scss";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
