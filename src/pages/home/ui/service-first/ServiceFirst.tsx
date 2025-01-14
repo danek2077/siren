@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./serviceFirst.module.scss";
+import { Link } from "react-router-dom";
 export const ServiceFirst = () => {
   return (
     <div className={s.wrap}>
@@ -19,12 +20,7 @@ const ParentElem = () => {
 };
 const ChildElem = () => {
   return (
-    <a
-      className={s.child}
-      href="https://dentalcare.dp.ua/clinic/132"
-      target="_blank"
-      rel="noreferrer"
-    >
+    <Link className={s.child} to={"/service"}>
       <img
         src="https://skyclinic.ua/wp-content/uploads/2024/02/terapevt-1.svg"
         alt=""
@@ -34,6 +30,6 @@ const ChildElem = () => {
         Терапевтична <br />
         стоматологія
       </h1>
-    </a>
+    </Link>
   );
 };

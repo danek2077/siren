@@ -3,6 +3,8 @@ import s from "./home.module.scss";
 import Presentation from "./ui/presentation/Presentation";
 import { Container } from "src/ui/shared/container/container";
 import { ServiceFirst } from "./ui/service-first/ServiceFirst";
+import { WhyUs } from "./ui/whyUs/WhyUs";
+import Reviews from "./ui/leave-reviews/Reviews";
 
 export const Home: React.FC = () => {
   return (
@@ -11,7 +13,8 @@ export const Home: React.FC = () => {
       <Container>
         <ServiceFirst />
       </Container>
-      <div className={s.height}></div>
+      <WhyUs />
+      <Reviews/>
     </div>
   );
 };

@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: #f4f4f4;
+  background-color: white;
   z-index: 1000;
 }
 
@@ -54,9 +54,9 @@
   display: flex;
   align-items: center;
   a {
-    margin: 5px 35px;
-    color: #2b344a; // Ссылки синего цвета
-    font-weight: 510; // Немного утолщенный текст
+    margin: 5px 25px;
+    color: black; // Ссылки синего цвета
+    font-weight: 600; // Немного утолщенный текст
     font-size: 18px;
     &:hover {
       color: #0056b3; // Более темный цвет при наведении

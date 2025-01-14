@@ -1,16 +1,15 @@
 .form {
   background-color: white;
-  height: 575px;
-  width: 700px;
-  border: 1px solid #000;
+  width: 500px;
+  border: 1px solid #d1d5db; /* Светло-серая рамка */
+  border-radius: 2px; /* Скругленные углы */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Мягкая тень */
 }
 .form_parent {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 100%;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .h1txt {
   font-size: 25px;
@@ -42,7 +41,7 @@
 .selects_parent{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 .signbtn {
   background-color: #007bff;
@@ -69,4 +68,7 @@
     outline: none;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.75);
   }
+}
+.xzkak{
+  width: 100%;
 }

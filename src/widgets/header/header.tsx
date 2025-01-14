@@ -15,17 +15,18 @@ export const Header: React.FC = () => {
               <FontAwesomeIcon icon={faTooth} size={"3x"} className={s.tooth} />
             </Link>
             <div className={s.links}>
-              <Link to={"/"}>Головна</Link>
-              <Link to={"/service"}>Сервіс</Link>
+              <Link to={"/"}>Главная</Link>
+              <Link to={"/service"}>Сервис</Link>
               <Link to={"/about"}>Про нас</Link>
-              <Link to={"/about"}>Акції</Link>
-              <Link to={"/about"}>Відгуки</Link>
-              <Link to={"/about"}>Соц мережи</Link>
+              <Link to={"/about"}>Акции</Link>
+              <Link to={"/about"}>Отзывы</Link>
+              <Link to={"/about"}>Соц сети</Link>
+              <Link to={"/about"}>Наши работы</Link>
             </div>
           </div>
           <div className={s.wrapbtn}>
             <button onClick={() => scroller()} className={s.signbtn}>
-              ЗВ'ЯЗАТИСЯ З НАМИ
+              СВЯЗАТЬСЯ С НАМИ
             </button>
           </div>
         </div>

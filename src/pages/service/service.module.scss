@@ -1,0 +1,28 @@
+.wrap {
+  margin-top: 100px;
+}
+
+.parent {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.child {
+  width: 31%;
+  height: 450px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+.img{
+  height: auto; /* Автоматическая высота */
+  margin-bottom: 10px; /* Отступ под изображением */
+  border-radius: 5px; /* Лёгкое скругление изображения */
+  max-width: 100px;
+}
+.block_line{
+    width: 100%;
+    height: 2px;
+    background-color: #e0e0e0;
+    margin-top: 50px;
+}
